@@ -4,7 +4,7 @@ import { useAuthStore } from "../store";
 
 const routes = [
   { path: "/", name: "home", component: HomeView },
-  { path: "/login", name: "login", component: LoginView },
+  // { path: "/login", name: "login", component: LoginView },
   { path: "/posts", name: "posts", component: PostsView },
   { path: "/posts/:id", name: "details", component: DetailsView, props: true },
 ];
